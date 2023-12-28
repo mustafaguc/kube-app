@@ -37,27 +37,28 @@ public class TextPopulator {
             Cras vestibulum ipsum eu eros pharetra, id volutpat risus cursus.
             Curabitur ultrices lorem a nisl euismod pulvinar.
             """;
-    private final String text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n" +
-            "Phasellus vitae purus ut felis feugiat aliquet.\n" +
-            "Vivamus vehicula ante et lobortis facilisis.\n" +
-            "Quisque a dui a tortor fermentum eleifend vitae in justo.\n" +
-            "Duis hendrerit lectus non magna tincidunt, nec luctus ante tristique.\n" +
-            "Pellentesque a augue vel ante elementum iaculis molestie quis purus.\n" +
-            "Fusce maximus urna vitae volutpat varius.\n" +
-            "Donec maximus turpis a luctus varius.\n" +
-            "Etiam suscipit nisl sed purus tempor laoreet.\n" +
-            "Sed in odio ac est mattis suscipit.\n" +
-            "Aenean laoreet elit vel est congue lobortis quis eget libero.\n" +
-            "In non nisl ut dui fringilla faucibus dapibus at arcu.\n" +
-            "Curabitur fringilla dui tincidunt, laoreet orci lacinia, posuere sapien.\n" +
-            "Phasellus semper sem vel mauris elementum dapibus.\n" +
-            "Integer bibendum lacus nec justo consectetur ornare.\n" +
-            "Duis mollis libero id nibh cursus, id tempus nulla ultricies.\n" +
-            "Aliquam lacinia eros et massa porta porta.\n" +
-            "Vestibulum sed ipsum auctor, dapibus felis id, dapibus tellus.\n" +
-            "Vivamus sit amet nulla quis quam suscipit pretium.\n" +
-            "Sed fermentum tellus ut purus convallis scelerisque.\n" +
-            "Cras volutpat ex sit amet lectus feugiat, quis ullamcorper risus placerat.";
+    private final String text = """
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus vitae purus ut felis feugiat aliquet.
+            Vivamus vehicula ante et lobortis facilisis.
+            Quisque a dui a tortor fermentum eleifend vitae in justo.
+            Duis hendrerit lectus non magna tincidunt, nec luctus ante tristique.
+            Pellentesque a augue vel ante elementum iaculis molestie quis purus.
+            Fusce maximus urna vitae volutpat varius.
+            Donec maximus turpis a luctus varius.
+            Etiam suscipit nisl sed purus tempor laoreet.
+            Sed in odio ac est mattis suscipit.
+            Aenean laoreet elit vel est congue lobortis quis eget libero.
+            In non nisl ut dui fringilla faucibus dapibus at arcu.
+            Curabitur fringilla dui tincidunt, laoreet orci lacinia, posuere sapien.
+            Phasellus semper sem vel mauris elementum dapibus.
+            Integer bibendum lacus nec justo consectetur ornare.
+            Duis mollis libero id nibh cursus, id tempus nulla ultricies.
+            Aliquam lacinia eros et massa porta porta.
+            Vestibulum sed ipsum auctor, dapibus felis id, dapibus tellus.
+            Vivamus sit amet nulla quis quam suscipit pretium.
+            Sed fermentum tellus ut purus convallis scelerisque.
+            Cras volutpat ex sit amet lectus feugiat, quis ullamcorper risus placerat.""";
 
     private final List<String> titleList = Arrays.asList(titles.split("\n"));
     private final List<String> lines = Arrays.asList(text.split("\n"));
